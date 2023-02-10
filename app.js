@@ -18,10 +18,10 @@ app.use(cors(corsOptions)) // Use this after the variable declaration
 
 const pool = mysql.createPool({
     connectionLimit: 10,
-    host : 'localhost',
-    user : 'root',
-    password : '',
-    database : 'movies'
+    host : 'sql7.freesqldatabase.com',
+    user : 'sql7595409',
+    password : 'rmHWUn8eAZ',
+    database : 'sql7595409'
 })
 
 // get all orders
